@@ -1,0 +1,36 @@
+{
+  "name": "wishlist-sns",
+  "version": "1.0.0",
+  "description": "Wishlist",
+  "homepage": "https://github.com/alex-1900/wishlist-sns#readme",
+  "bugs": {
+    "url": "https://github.com/alex-1900/wishlist-sns/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-1900/wishlist-sns.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@koa/router": "^14.0.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.6",
+    "koa": "^3.0.3",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^3.0.0",
+    "@types/koa__router": "^12.0.4",
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.5",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
